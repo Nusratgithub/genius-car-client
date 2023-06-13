@@ -11,8 +11,8 @@ const AboutMe = () => {
                     <img className='w-4/5 h-[350px] rounded-lg shadow-xl' src={person } alt="" />
                     <img className='absolute w-3/5  border-8 border-white rounded-rounded-10 lg:right-8 right-0 top-52' src={ parts } alt="" />
                 </div>
-                <div className='my-auto mt-10'>
-                    <h3 className='text-red-600 text-xl leading-6 font-bold mb-5'>About Us</h3>
+                <div className='my-auto mt-5'>
+                    <h3 className='text-red-600 text-xl leading-6 font-bold mt-10 lg:mt-0'>About Us</h3>
                     <h2 className='font-bold text-theme-dark text-4xl leading-10 md:text-text-45 md:leading-leading-54 pb-5'>We are qualified &  <br/> of experience in this field</h2>
                     <p className='text-base font-normal text-theme-text mb-5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                     <p className='text-base font-normal text-theme-text mb-b-30'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
