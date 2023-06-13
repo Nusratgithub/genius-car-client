@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "635f88091e00ce3c5832cd35",
+        "product_id": "01",
+        "title": "Car Engine Plug",
+        "img": "https://media.istockphoto.com/id/637294322/photo/holding-old-and-new-car-spark-plugs-on-engine.webp?b=1&s=170667a&w=0&k=20&c=guhh7yTIyxqFehtZsMNzUBM9t4UFNqQZUVYgwQRlO8I=",
+        "price": "20.00"
+    },
+    {
+        "_id": "635f88186478e3ad5a561b19",
+        "product_id": "02",
+        "title": "Car Air Filter",
+        "img": "https://media.istockphoto.com/id/1174080391/photo/auto-mechanic-wearing-protective-work-gloves-holding-dirty-used-air-filter-above-a-car-engine.webp?b=1&s=170667a&w=0&k=20&c=riDCgbHxuhjmde309B9P5onNK-3qYfLwU66rqzUDo-I=",
+        "price": "20.00"
+    },
+    {
+        "_id": "635f882115b6d4abb4399713",
+        "product_id": "03",
+        "title": "Cools Led Light",
+        "img": "https://media.istockphoto.com/id/1308248587/photo/car-headlight-with-copy-space-macro-view-closeup-of-modern-prestigious-car-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=6YsIHLE7GNTrm-jEVgotBFjEKQ-9QYDz3ITd5lzKLE4=",
+        "price": "20.00"
+    }
+]
+    
+   

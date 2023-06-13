@@ -1,0 +1,7 @@
+.ab__cart_icon_style {
+    transition: all .5s;
+}
+.ab__cart_icon_style:hover  .ab__cart_style {
+    display: block;
+    transition: all .5s;
+}
