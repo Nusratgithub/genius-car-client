@@ -26,7 +26,7 @@ const OrderRow = ({ order, handleOrderDelete }) => {
       <td className="p-3">
         <p>${price}</p>
       </td>
-      <td className="p-3">
+      <td className="p-3 hidden md:block">
         <p>{customer}</p>
         <p>{email}</p>
       </td>

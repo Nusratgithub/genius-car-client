@@ -6,9 +6,9 @@ import './ProductItem.css'
 const ProductItem = ({ product }) => {
     const { title, img, price, _id } = product
     return (
-        <div className='p-[25px] rounded shadow-xl border border-[#E8E8E8] relative text-center cursor-pointer ab__cart_icon_style'>
+        <div className='p-[25px] rounded shadow-xl border border-[#E8E8E8] relative text-center cursor-pointer'>
             <div className='bg-[#F3F3F3] px-7 rounded-rounded-10 mb-5 text-center py-8'>
-                <img className='mx-auto' src={img} alt='' />
+                <img className='mx-auto h-[200px]' src={img} alt=''/>
             </div>
             <div className='flex justify-center mb-[10px] text-[#FF912C] text-xl'>
                 <HiStar />

@@ -47,13 +47,13 @@ const Order = () => {
     <div className='container mx-auto'>
       <Breadcrumb title='Order Page' />
       <h3 className="text-3xl my-5 text-center">You have {orders.length} Orders</h3>
-      <table className="min-w-full">
+      <table className="min-w-full max-w-full">
         <thead className="bg-gray-400 text-white border">
           <tr className="text-center">
             <th className="p-3">Image</th>
             <th className="p-3">Product Name</th>
             <th className="p-3">Price</th>
-            <th className="p-3">Customer Details</th>
+            <th className="p-3 hidden md:block">Customer Details</th>
             <th className="p-3">Status</th>
           </tr>
         </thead>

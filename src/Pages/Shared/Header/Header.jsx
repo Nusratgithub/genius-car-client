@@ -207,6 +207,22 @@ const Header = () => {
                                             ))
                                         }
                                     </ul>
+                                    <ul className='items-center flex space-x-5'>
+                        {
+                            user?.uid ?
+                            <li>
+                            <button onClick={handleLogout} className='font-semibold text-white transition-colors duration-200 hover:text-white bg-red-500 px-4 py-1 rounded my-2'>
+                                Logout
+                            </button>
+                        </li>
+                                :
+                                <li className='dropdown dropdown-end'>
+                                    <label tabIndex={0} className="btn bg-red-500 hover:bg-red-500 border border-red-500 hover:border-red-500">
+                                        <Link to='/login'>Login</Link>
+                                    </label>
+                                </li>
+                        }
+                    </ul>
                                 </nav>
                             </div>
                         </div>
